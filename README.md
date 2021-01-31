@@ -31,3 +31,9 @@ See the full instructions [here][flutter-install].
 
 [flutter-sdk]: https://flutter.io/sdk-archive/#macos
 [flutter-install]: https://flutter.io/setup-macos/
+
+
+
+
+## web
+sudo docker run -dit --name tecmint-web -p 8080:80 -v /home/rossy/flutter_hello/build/web/:/usr/local/apache2/htdocs/ httpd:2.4

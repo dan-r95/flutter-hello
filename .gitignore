@@ -9,3 +9,4 @@ build/
 .flutter-plugins
 
 xcuserdata
+ios/Flutter/flutter_export_environment.sh
